@@ -1,0 +1,13 @@
+v 4
+file . "../Fuentes/tb_semaforos.vhd" "e7697bde082585691f7a359c1c6eea34111aa33a" "20250503025803.548":
+  entity tb_semaforos at 6( 164) + 0 on 113;
+  architecture behavioral of tb_semaforos at 13( 283) + 0 on 114;
+file . "../Fuentes/semaforos.vhd" "c69862d5aa2ece345d4c090d0ae27cdf8ac89dee" "20250503025803.548":
+  entity semaforos at 6( 97) + 0 on 111;
+  architecture behavioral of semaforos at 24( 532) + 0 on 112;
+file . "../Fuentes/contadorN.vhd" "967973a6252e1f36c51c9fd9ae2916bb50892120" "20250503025803.547":
+  entity countern at 6( 97) + 0 on 109;
+  architecture behavioral of countern at 26( 659) + 0 on 110;
+file . "../Fuentes/mux.vhd" "29f6b874ba2aa1f9f3b1fbb9e034fc2cf9406e82" "20250503025803.546":
+  entity mux at 6( 97) + 0 on 107;
+  architecture behavioral of mux at 19( 393) + 0 on 108;

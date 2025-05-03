@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Fuentes/contadorN.vhd" \
+"../../../../../../Fuentes/mux.vhd" \
+"../../../../../../Fuentes/semaforos.vhd" \
+"../../../../../../Fuentes/tb_semaforos.vhd" \
+
+# Do not sort compile order
+nosort

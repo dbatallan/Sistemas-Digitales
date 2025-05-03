@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_semaforos_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_semaforos" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="100100000000000001fs"></ZoomEndTime>
+      <Cursor1Time time="6849010022830000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wave_markers>
+      <marker time="29500000000000000" label="" />
+      <marker time="59500000000000000" label="" />
+      <marker time="89500000000000000" label="" />
+      <marker time="92500000000000000" label="" />
+      <marker time="62500000000000000" label="" />
+      <marker time="32500000000000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_semaforos/tb_rst" type="logic">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_rojo_1" type="logic">
+      <obj_property name="ElementShortName">tb_rojo_1</obj_property>
+      <obj_property name="ObjectShortName">tb_rojo_1</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_amarillo_1" type="logic">
+      <obj_property name="ElementShortName">tb_amarillo_1</obj_property>
+      <obj_property name="ObjectShortName">tb_amarillo_1</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_verde_1" type="logic">
+      <obj_property name="ElementShortName">tb_verde_1</obj_property>
+      <obj_property name="ObjectShortName">tb_verde_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_rojo_2" type="logic">
+      <obj_property name="ElementShortName">tb_rojo_2</obj_property>
+      <obj_property name="ObjectShortName">tb_rojo_2</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_amarillo_2" type="logic">
+      <obj_property name="ElementShortName">tb_amarillo_2</obj_property>
+      <obj_property name="ObjectShortName">tb_amarillo_2</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/tb_verde_2" type="logic">
+      <obj_property name="ElementShortName">tb_verde_2</obj_property>
+      <obj_property name="ObjectShortName">tb_verde_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/SIM_TIME" type="other">
+      <obj_property name="ElementShortName">SIM_TIME</obj_property>
+      <obj_property name="ObjectShortName">SIM_TIME</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_semaforos/N_TB" type="other">
+      <obj_property name="ElementShortName">N_TB</obj_property>
+      <obj_property name="ObjectShortName">N_TB</obj_property>
+   </wvobject>
+</wave_config>

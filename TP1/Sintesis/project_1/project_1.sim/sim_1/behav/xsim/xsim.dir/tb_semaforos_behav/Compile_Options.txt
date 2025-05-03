@@ -1,0 +1,1 @@
+-wto "a8b70711eeed4825aa8be365977137cb" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_semaforos_behav" "xil_defaultlib.tb_semaforos" -log "elaborate.log" 
