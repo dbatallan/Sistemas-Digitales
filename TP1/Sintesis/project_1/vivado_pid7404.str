@@ -1,0 +1,161 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 7404
+License: Customer
+
+Current time: 	Sat May 24 00:05:39 ART 2025
+Time zone: 	Argentina Standard Time (America/Buenos_Aires)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dbata
+User home directory: C:/Users/dbata
+User working directory: C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/Sintesis/project_1
+User country: 	AR
+User language: 	es
+User locale: 	es_AR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/dbata/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/dbata/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/dbata/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/Sintesis/project_1/vivado.log
+Vivado journal file location: 	C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/Sintesis/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/Sintesis/project_1/.Xil/Vivado-7404-DESKTOP-RV5J2M0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 687 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\dbata\Desktop\Sistemas-Digitales-main\TP1\Sintesis\project_1\project_1.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/Sintesis/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+78696kb) [00:00:09]
+// [Engine Memory]: 616 MB (+494537kb) [00:00:09]
+// [GUI Memory]: 93 MB (+12337kb) [00:00:09]
+// [Engine Memory]: 652 MB (+5167kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3710 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 689 MB. GUI used memory: 48 MB. Current time: 5/24/25, 12:05:39 AM ART
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 721.387 ; gain = 118.016 
+// Project name: project_1; location: C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/Sintesis/project_1; part: xc7a15tftg256-1
+// [Engine Memory]: 689 MB (+4833kb) [00:00:13]
+dismissDialog("Open Project"); // bx (cp)
+// [GUI Memory]: 105 MB (+7351kb) [00:00:14]
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 26, false); // u (Q, cp)
+// bx (cp):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a15tftg256-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 859 MB. GUI used memory: 47 MB. Current time: 5/24/25, 12:05:57 AM ART
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 931 MB. GUI used memory: 46 MB. Current time: 5/24/25, 12:05:59 AM ART
+// [Engine Memory]: 933 MB (+219879kb) [00:00:32]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2018.3/data/parts/xilinx/artix7/devint/artix7/xc7a15t/xc7a15t.xgd; ZipEntry: xc7a15t_detail.xgd elapsed time: 0.6s
+// [Engine Memory]: 1,035 MB (+57311kb) [00:00:32]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.4s
+// Device: addNotify
+// DeviceView Instantiated
+// [GUI Memory]: 113 MB (+3389kb) [00:00:37]
+// WARNING: HEventQueue.dispatchEvent() is taking  5713 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7a15tftg256-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 949.734 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:14 . Memory (MB): peak = 1094.016 ; gain = 367.172 
+// Device view-level: 0,0
+// WARNING: HEventQueue.dispatchEvent() is taking  1092 ms.
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [GUI Memory]: 126 MB (+6895kb) [00:00:41]
+// Elapsed time: 16 seconds
+dismissDialog("Open Synthesized Design"); // bx (cp)
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 226, 111, 907, 407, false, false, false, true, false); // f (k, cp) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SchMenuAndMouse_SAVE_AS_PDF_FILE, "Save as PDF File..."); // af (al, cp)
+// k (cp): Save as PDF File: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,461 MB. GUI used memory: 82 MB. Current time: 5/24/25, 12:06:17 AM ART
+selectButton(PAResourceQtoS.SaveSchematicDialog_SPECIFY_OUTPUT_PDF_FILE, (String) null); // q (ak)
+// RouteApi::initDelayMediator elapsed time: 11.7s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 25 seconds
+setFileChooser("C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/schematic.pdf");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// Tcl Command: 'write_schematic -format pdf -orientation portrait C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/schematic.pdf'
+// TclEventType: WRITE_SCHEMATIC
+// [Engine Memory]: 1,504 MB (+437689kb) [00:01:19]
+// Tcl Message: write_schematic -format pdf -orientation portrait C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/schematic.pdf 
+// Tcl Message: C:/Users/dbata/Desktop/Sistemas-Digitales-main/TP1/schematic.pdf 
+dismissDialog("Save as PDF File"); // k (cp)
+// [GUI Memory]: 141 MB (+9830kb) [00:04:40]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 227ms to process. Increasing delay to 2000 ms.
+// TclEventType: FILE_SET_CHANGE

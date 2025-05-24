@@ -25,8 +25,8 @@ end counterN;
 
 architecture behavioral of counterN is
 
-    constant N30_SEG : natural := 29;
-    constant N3_SEG : natural := 2;
+    constant N30_SEG : natural := 1499999999;
+    constant N3_SEG : natural := 149999999;
      
     signal  aux_count : unsigned(N-1 downto 0);
     

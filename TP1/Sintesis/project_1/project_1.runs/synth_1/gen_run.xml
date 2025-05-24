@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1746249346">
+<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1748055825">
   <File Type="PA-TCL" Name="semaforos.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="semaforos_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="semaforos_reports.tcl"/>
   <File Type="RDS-RDS" Name="semaforos.vds"/>
   <File Type="RDS-UTIL" Name="semaforos_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="semaforos_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="semaforos.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="semaforos_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="semaforos_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../../Fuentes/contadorN.vhd">

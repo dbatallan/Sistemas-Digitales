@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Sat May  3 02:16:01 2025
+| Date         : Sat May 24 00:04:01 2025
 | Host         : DESKTOP-RV5J2M0 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file semaforos_utilization_synth.rpt -pb semaforos_utilization_synth.pb
 | Design       : semaforos
