@@ -1,0 +1,175 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 1588
+License: Customer
+
+Current time: 	Sat Jun 07 00:52:08 ART 2025
+Time zone: 	Argentina Standard Time (America/Buenos_Aires)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 175 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dbata
+User home directory: C:/Users/dbata
+User working directory: C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis
+User country: 	AR
+User language: 	es
+User locale: 	es_AR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/dbata/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/dbata/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/dbata/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/vivado.log
+Vivado journal file location: 	C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/vivado.jou
+Engine tmp dir: 	C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/.Xil/Vivado-1588-DESKTOP-RV5J2M0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 625 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\dbata\Desktop\TP2\Sumador_Restador\Sintesis\sumador_restador.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/sumador_restador.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/sumador_restador.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 70 MB (+70997kb) [00:00:09]
+// [Engine Memory]: 621 MB (+499759kb) [00:00:09]
+// [GUI Memory]: 86 MB (+12551kb) [00:00:09]
+// [GUI Memory]: 104 MB (+14361kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  3060 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 629 MB. GUI used memory: 48 MB. Current time: 6/7/25, 12:52:09 AM ART
+// Project name: sumador_restador; location: C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis; part: xc7a15tftg256-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 652 MB (+24kb) [00:00:26]
+// Elapsed time: 15 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (Q, cp)
+// A (cp): Elaborate Design: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 656 MB. GUI used memory: 47 MB. Current time: 6/7/25, 12:52:28 AM ART
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+dismissDialog("Elaborate Design"); // A (cp)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a15tftg256-1 Top: fp_subadd 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 47 MB. Current time: 6/7/25, 12:52:38 AM ART
+// [Engine Memory]: 1,012 MB (+343567kb) [00:00:41]
+// [Engine Memory]: 1,068 MB (+4862kb) [00:00:41]
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,123 MB (+1976kb) [00:00:41]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 116 MB (+7422kb) [00:00:42]
+// Schematic: addNotify
+// [GUI Memory]: 127 MB (+5505kb) [00:00:44]
+// WARNING: HEventQueue.dispatchEvent() is taking  3369 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 754.191 ; gain = 69.629 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'fp_subadd' [C:/Users/dbata/Desktop/TP2/Sumador_Restador/Fuentes/sumador_restador.vhd:22] 
+// Tcl Message: 	Parameter N bound to: 20 - type: integer  	Parameter NE bound to: 6 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'fp_subadd' (1#1) [C:/Users/dbata/Desktop/TP2/Sumador_Restador/Fuentes/sumador_restador.vhd:22] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 809.637 ; gain = 125.074 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 809.637 ; gain = 125.074 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 809.637 ; gain = 125.074 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a15tftg256-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 20 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1124.234 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1178.352 ; gain = 493.789 
+// Tcl Message: 7 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1178.352 ; gain = 493.789 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 14 seconds
+dismissDialog("Open Elaborated Design"); // bx (cp)
+// u (cp):  Generate Schematic : addNotify
+dismissDialog("Generate Schematic"); // u (cp)
+// Elapsed time: 13 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 483, 243, 907, 407, false, false, false, true, false); // f (k, cp) - Popup Trigger
+// Elapsed time: 10 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 194, 53, 907, 407, false, false, false, true, false); // f (k, cp) - Popup Trigger
+selectMenu(PAResourceItoN.NetlistSchMenuAndMouse_VIEW, "View"); // ac (al, cp)
+selectMenuItem(PAResourceQtoS.SchMenuAndMouse_SAVE_AS_PDF_FILE, "Save as PDF File..."); // af (al, cp)
+// k (cp): Save as PDF File: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// Tcl Command: 'write_schematic -format pdf -orientation portrait -force C:/Users/dbata/Downloads/schematic.pdf'
+// TclEventType: WRITE_SCHEMATIC
+// Tcl Message: write_schematic -format pdf -orientation portrait -force C:/Users/dbata/Downloads/schematic.pdf 
+// Tcl Message: C:/Users/dbata/Downloads/schematic.pdf 
+dismissDialog("Save as PDF File"); // k (cp)
+// [GUI Memory]: 137 MB (+4290kb) [00:09:49]

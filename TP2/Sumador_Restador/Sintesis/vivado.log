@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jun  7 00:51:54 2025
+# Process ID: 1588
+# Current directory: C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26636 C:\Users\dbata\Desktop\TP2\Sumador_Restador\Sintesis\sumador_restador.xpr
+# Log file: C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/vivado.log
+# Journal file: C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dbata/Desktop/TP2/Sumador_Restador/Sintesis/sumador_restador.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a15tftg256-1
+Top: fp_subadd
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 754.191 ; gain = 69.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fp_subadd' [C:/Users/dbata/Desktop/TP2/Sumador_Restador/Fuentes/sumador_restador.vhd:22]
+	Parameter N bound to: 20 - type: integer 
+	Parameter NE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fp_subadd' (1#1) [C:/Users/dbata/Desktop/TP2/Sumador_Restador/Fuentes/sumador_restador.vhd:22]
+WARNING: [Synth 8-3917] design fp_subadd has port Z[19] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[18] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[17] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[16] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[15] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[14] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[13] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[12] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[11] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[10] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[9] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[8] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[7] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[6] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[5] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[4] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[3] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[2] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[1] driven by constant 0
+WARNING: [Synth 8-3917] design fp_subadd has port Z[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 809.637 ; gain = 125.074
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 809.637 ; gain = 125.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 809.637 ; gain = 125.074
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a15tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 20 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1124.234 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1178.352 ; gain = 493.789
+7 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1178.352 ; gain = 493.789
+write_schematic -format pdf -orientation portrait -force C:/Users/dbata/Downloads/schematic.pdf
+C:/Users/dbata/Downloads/schematic.pdf

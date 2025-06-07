@@ -1,0 +1,7 @@
+v 4
+file . "../Fuentes/tb_sumador_restador.vhd" "4175f05738240024f089e91156e8d7783c13da12" "20250607024338.379":
+  entity tb_fpsubadd at 6( 97) + 0 on 29;
+  architecture tb_arch of tb_fpsubadd at 14( 242) + 0 on 30;
+file . "../Fuentes/sumador_restador.vhd" "8c73d9c3fb033ec66c52ed2abef166f5fcd2b373" "20250607024338.377":
+  entity fp_subadd at 6( 97) + 0 on 27;
+  architecture behavioral of fp_subadd at 22( 697) + 0 on 28;
