@@ -1,0 +1,29 @@
+v 4
+file . "../Fuentes/cordic.vhd" "96c6ed7d07d1854f5b30be7fb8e6983e55756161" "20250624231428.763":
+  entity cordic at 1( 0) + 0 on 92;
+  architecture behavioral_iter of cordic at 22( 532) + 0 on 93;
+  architecture behavioral_unrolled of cordic at 71( 1894) + 0 on 94;
+file . "../Fuentes/cordic_unrolled.vhd" "7d3dba9550781cdffbffd8473f01d06c962aa5d9" "20250624231428.652":
+  entity cordic_unrolled at 1( 0) + 0 on 90;
+  architecture behavioral of cordic_unrolled at 25( 681) + 0 on 91;
+file . "../Fuentes/cordic_base.vhd" "4b6b8be60d57748b3a4301a8f1db9004028936e8" "20250624231428.431":
+  entity cordic_base at 1( 0) + 0 on 86;
+  architecture behavioral of cordic_base at 23( 753) + 0 on 87;
+file . "../Fuentes/register.vhd" "8aa61da2d00598e73d843c5071ef415b5b903301" "20250628132809.552":
+  entity reg at 1( 0) + 0 on 109;
+  architecture behavioral of reg at 16( 300) + 0 on 110;
+file . "../Fuentes/add_sub.vhd" "0a518ba442fbdd00982a237f4eaee184226e532c" "20250628132809.323":
+  entity add_sub at 1( 0) + 0 on 105;
+  architecture behavioral of add_sub at 15( 363) + 0 on 106;
+file . "../Fuentes/atan_rom.vhd" "ce4d75f43808633b541d1fd251785ec0f66a47b5" "20250628132809.446":
+  entity atan_rom at 1( 0) + 0 on 107;
+  architecture behavioral of atan_rom at 17( 363) + 0 on 108;
+file . "../Fuentes/pre_cordic.vhd" "f8eec8cf225ce78beb50bd26881e24094e47c702" "20250628132809.663":
+  entity pre_cordic at 1( 0) + 0 on 111;
+  architecture behavioral of pre_cordic at 20( 618) + 0 on 112;
+file . "../Fuentes/cordic_iter.vhd" "d0ea4a59be16af74c0025fc9edfd179989c9e1e6" "20250624231428.542":
+  entity cordic_iter at 1( 0) + 0 on 88;
+  architecture behavioral of cordic_iter at 25( 727) + 0 on 89;
+file . "../Fuentes/cordic_tb.vhd" "7cf0e8dd464046588b418a0a63fec11440c7346f" "20250624231428.871":
+  entity cordic_testbench at 1( 0) + 0 on 95;
+  architecture cordic_testbench_arq of cordic_testbench at 10( 181) + 0 on 96;
